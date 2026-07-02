@@ -76,6 +76,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Zuri AI — AI Agents for SMEs in Kenya" },
+      { name: "description", content: "AI-Powered Automation for growing businesses" },
+      { property: "og:description", content: "AI-Powered Automation for growing businesses" },
+      { name: "twitter:description", content: "AI-Powered Automation for growing businesses" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/f54936e6-b1bb-465f-82a8-deda57e19e75" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/f54936e6-b1bb-465f-82a8-deda57e19e75" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
