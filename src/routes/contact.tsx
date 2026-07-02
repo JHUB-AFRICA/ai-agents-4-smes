@@ -47,7 +47,7 @@ function ContactPage() {
           </div>
 
           <div className="overflow-hidden rounded-2xl border border-border bg-card">
-            <div className="aspect-video w-full bg-gradient-to-br from-brand-sky/60 via-brand-cyan/40 to-brand-blue/30">
+            <div className="aspect-video w-full bg-linear-to-br from-brand-sky/60 via-brand-cyan/40 to-brand-blue/30">
               <div className="grid h-full place-items-center text-sm font-medium text-brand-dark">
                 Google Maps placeholder
               </div>

@@ -48,7 +48,7 @@ export function Navbar() {
           </div>
         </Link>
 
-        <ul className="hidden items-center gap-1 lg:flex">
+        <ul className="hidden items-center gap-1 md:flex">
           {links.map((l) => (
             <li key={l.to}>
               <Link
@@ -79,7 +79,7 @@ export function Navbar() {
           </Link>
           <button
             aria-label="Menu"
-            className="grid h-9 w-9 place-items-center rounded-full border border-border lg:hidden"
+            className="grid h-9 w-9 place-items-center rounded-full border border-border md:hidden"
             onClick={() => setOpen((o) => !o)}
           >
             {open ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
@@ -93,7 +93,7 @@ export function Navbar() {
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
-            className="overflow-hidden border-t border-border bg-background lg:hidden"
+            className="overflow-hidden border-t border-border bg-background md:hidden"
           >
             <ul className="mx-auto flex max-w-7xl flex-col gap-1 px-4 py-3">
               {links.map((l) => (
