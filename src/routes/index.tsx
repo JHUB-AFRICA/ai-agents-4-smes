@@ -18,7 +18,7 @@ export const Route = createFileRoute("/")({
 const features = [
   { icon: MessageSquare, title: "AI Customer Support", desc: "24/7 Swahili & English support across channels." },
   { icon: Users, title: "Lead Qualification", desc: "Score & route hot leads to your sales team automatically." },
-  { icon: Workflow, title: "Workflow Automation", desc: "Automate orders, bookings, follow-ups and reminders." },
+  { icon: WorkflowIcon, title: "Workflow Automation", desc: "Automate orders, bookings, follow-ups and reminders." },
   { icon: BarChart3, title: "Analytics Dashboard", desc: "Track conversations, revenue and agent performance." },
   { icon: FaWhatsapp as unknown as typeof Bot, title: "WhatsApp Integration", desc: "Native WhatsApp Business API integration." },
   { icon: ShieldCheck, title: "Secure & Compliant", desc: "Data hosted safely with role-based access controls." },

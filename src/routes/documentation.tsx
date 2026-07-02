@@ -2,10 +2,10 @@ import { createFileRoute } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { PageShell } from "@/components/site/PageShell";
 import {
-  SiOpenai, SiFastapi, SiPostgresql, SiTwilio, SiDocker,
+  SiFastapi, SiPostgresql, SiDocker,
   SiGithub, SiSocketdotio,
 } from "react-icons/si";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp, FaRobot, FaPhone } from "react-icons/fa";
 import { Plug } from "lucide-react";
 
 export const Route = createFileRoute("/documentation")({
