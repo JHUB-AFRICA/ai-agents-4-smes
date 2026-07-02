@@ -31,10 +31,10 @@ const docs = [
 
 const integrations = [
   { Icon: FaWhatsapp, name: "WhatsApp" },
-  { Icon: SiOpenai, name: "OpenAI" },
+  { Icon: FaRobot, name: "OpenAI" },
   { Icon: SiFastapi, name: "FastAPI" },
   { Icon: SiPostgresql, name: "PostgreSQL" },
-  { Icon: SiTwilio, name: "Twilio" },
+  { Icon: FaPhone, name: "Twilio" },
   { Icon: SiDocker, name: "Docker" },
   { Icon: SiGithub, name: "GitHub" },
   { Icon: Plug, name: "REST API" },
