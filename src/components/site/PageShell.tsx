@@ -12,7 +12,7 @@ export function PageShell({
 }) {
   return (
     <div>
-      <section className="relative overflow-hidden border-b border-border">
+      <section className="relative isolate overflow-hidden border-b border-border">
         <div className="absolute inset-0 -z-10 gradient-hero opacity-95" />
         <div className="absolute -bottom-20 left-1/4 -z-10 h-72 w-72 rounded-full bg-brand-cyan/40 blur-3xl animate-blob" />
         <div className="mx-auto max-w-7xl px-6 py-20 text-white sm:py-28">

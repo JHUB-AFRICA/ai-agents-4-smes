@@ -32,7 +32,7 @@ function BuilderPage() {
       subtitle="No code. No complexity. Follow six steps and your Kenyan SME has its own always-on digital teammate."
     >
       <div className="relative">
-        <div className="pointer-events-none absolute left-1/2 top-0 hidden h-full w-px -translate-x-1/2 bg-gradient-to-b from-brand-blue via-brand-cyan to-brand-blue/20 md:block" />
+        <div className="pointer-events-none absolute left-1/2 top-0 hidden h-full w-px -translate-x-1/2 bg-linear-to-b from-brand-blue via-brand-cyan to-brand-blue/20 md:block" />
         <ol className="space-y-8">
           {steps.map((s, i) => {
             const Icon = s.icon as never as typeof Building2;

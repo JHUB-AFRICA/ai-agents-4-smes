@@ -55,12 +55,12 @@ function HomePage() {
 
 function Hero() {
   return (
-    <section className="relative overflow-hidden">
-      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-brand-bg via-white to-brand-sky/40" />
+    <section className="relative isolate overflow-hidden">
+      <div className="absolute inset-0 -z-10 bg-linear-to-br from-brand-bg via-white to-brand-sky/40" />
       <div className="absolute -top-24 -left-24 -z-10 h-96 w-96 rounded-full bg-brand-cyan/40 blur-3xl animate-blob" />
       <div className="absolute -bottom-32 -right-24 -z-10 h-96 w-96 rounded-full bg-brand-blue/30 blur-3xl animate-blob" />
 
-      <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 sm:py-24 lg:grid-cols-2 lg:items-center">
+      <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 sm:py-24 md:grid-cols-2 md:items-center">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
           <div className="inline-flex items-center gap-2 rounded-full border border-brand-cyan/40 bg-white/70 px-3 py-1 text-xs font-semibold text-brand-dark backdrop-blur">
             <Sparkles className="h-3.5 w-3.5 text-brand-blue" />
@@ -218,7 +218,7 @@ function Workflow() {
   ];
   return (
     <section className="relative overflow-hidden py-20">
-      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-brand-bg/60 to-transparent" />
+      <div className="absolute inset-0 -z-10 bg-linear-to-b from-brand-bg/60 to-transparent" />
       <div className="mx-auto max-w-7xl px-6">
         <SectionTitle eyebrow="How it works" title="Launch your AI agent in 6 steps" />
         <div className="mt-14 grid gap-4 md:grid-cols-3 lg:grid-cols-6">
