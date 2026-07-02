@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import {
-  Bot, MessageSquare, Zap, BarChart3, Users, Workflow, ArrowRight,
+  Bot, MessageSquare, Zap, BarChart3, Users, Workflow as WorkflowIcon, ArrowRight,
   Sparkles, PlayCircle, Building2, ShieldCheck, Star, Plus, Minus,
 } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
