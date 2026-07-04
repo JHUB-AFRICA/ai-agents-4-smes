@@ -14,12 +14,12 @@ export const Route = createFileRoute("/team")({
 });
 
 const team = [
-  { name: "Robin Isanda", role: "Founder & CEO" },
-  { name: "Edwin Ndumia", role: "CTO & AI Lead" },
-  { name: "Lilian Kiprop", role: "Head of Product" },
-  { name: "Ann Muchangi", role: "Design Lead" },
-  { name: "Nathnael Sherry", role: "ML Engineer" },
-  { name: "Erick Mwangi", role: "Growth & Partnerships" },
+  { name: "Robin Isanda", role: "Project Manager" },
+  { name: "Edwin Ndumia", role: "Communication & Narrative Building" },
+  { name: "Lilian Kiprop", role: "AI & LLM Trainer" },
+  { name: "Ann Muchangi", role: "Database Manager" },
+  { name: "Nathnael Sherry", role: "FullStack Developer" },
+  { name: "Erick Mwangi", role: "Backend Developer" },
 ];
 
 function initials(name: string) {
