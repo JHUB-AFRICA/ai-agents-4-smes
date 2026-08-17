@@ -1,0 +1,16 @@
+{
+  "scenario": "appointment_triage",
+  "input": {
+    "patient": {
+      "id": "patient-123",
+      "age": 45,
+      "symptoms": ["fever", "shortness of breath", "cough"],
+      "existing_conditions": ["hypertension"]
+    },
+    "preferred_contact": "sms",
+    "context": {
+      "clinic_id": "CLINIC-7",
+      "time_zone": "Africa/Nairobi"
+    }
+  }
+}
